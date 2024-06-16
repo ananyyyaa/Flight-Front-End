@@ -1,0 +1,93 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 6px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+  background-color: red;
+  color: rgb(3, 3, 3);
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+video {
+
+  height: auto;
+  float: right; 
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+color: #0c0b0b;
+}
+
+
+
+body {
+  background:  linear-gradient(90deg,#2c3e50 , #f0f0f0 , #88b04b );
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.highlight {
+  background-color: yellow;
+}
